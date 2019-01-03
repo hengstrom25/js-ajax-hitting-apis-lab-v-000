@@ -23,6 +23,8 @@ function getCommits(el) {
   req.send();
 }
 
+
+
 function getRepositories() {
   const req = new XMLHttpRequest();
   req.addEventListener('load');
